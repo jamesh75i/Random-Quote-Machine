@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Chilanka&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(155, 89, 182);
+}
+
+.container {
+  width: 750px;
+  height: 500px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#text {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 500px;
+  background: #333;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Chilanka", cursive;
+  font-size: 2rem;
+}
+
+button {
+  background: rgb(155, 89, 182);
+  color: #fff;
+  width: 280px;
+  padding: 10px;
+  border: none;
+  margin-right: 20px;
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+#author {
+  text-align: right;
+  width: 100%;
+  margin: 10px 0;
+  margin: 20px 0;
+  margin-right: 60px;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.4rem;
+}
+
+i {
+  margin-right: 20px;
+  color: rgb(155, 89, 182);
+}
+
+i:first-child {
+  margin-left: 20px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-row,
+.button-row {
+  display: flex;
+}
